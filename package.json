@@ -1,0 +1,17 @@
+{
+  "name": "live-poll-legaltech-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/live_poll_demo.ts",
+    "test": "node --experimental-strip-types src/live_poll_test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
